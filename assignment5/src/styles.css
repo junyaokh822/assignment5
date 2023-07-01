@@ -4,33 +4,26 @@
 
 body {
   font-family: sans-serif;
-  margin: 20px;
+  margin: 0;
   padding: 0;
   display: flex;
   justify-content: center;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  margin-top: 0;
-  text-align: center;
-}
-
-ul {
-  padding-left: 20px;
+  align-items: center;
+  height: 100vh;
 }
 
 .square {
   background: #fff;
   border: 1px solid #999;
-  float: left;
-  font-size: 24px;
+  font-size: 36px; /* Increase the font size for a bigger block */
   font-weight: bold;
-  line-height: 34px;
-  height: 34px;
-  margin: -1px 0 0 -1px;
+  line-height: 50px; /* Increase the line-height for a taller block */
+  height: 50px; /* Increase the height for a taller block */
+  width: 50px; /* Increase the width for a wider block */
+  margin-right: -1px;
+  margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 34px;
 }
 
 .board-row:after {
